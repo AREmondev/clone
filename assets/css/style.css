@@ -137,9 +137,48 @@ footer p{
     text-align: center;
     margin-bottom: 0;
 }
-iframe  {
-    background-image: url(../image/Margo-Price.jpg) !important;
-    background-size: cover;
+.radio-up {
+    position: relative;
+   
+}
+.miniplayer a i {
+    display: none;
+}
+#miniplayer_play i, 
+#miniplayer_stop i {
+    display: none !important;
+} 
+#miniplayer_play.active i, 
+#miniplayer_stop.active i {
+    display: block !important;
+} 
+#rbcloud_cover17671 {
+    min-height: 300px;
+    min-width: 300px;
+}
+#rbcloud_mplayer18553 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+}
+.radio-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.radio-up {
+    background: #000;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+.mr-4 {
+    margin-right: 5.5px;
+}
+.social a {
+    color: #2bb962;
 }
 @media (max-width: 991px){
     .menu-item {

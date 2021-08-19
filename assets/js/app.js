@@ -8,4 +8,8 @@ $( document ).ready(function() {
             $(".dropdown-menu").removeClass("active")
         }
     })
+    
+    $("#miniplayer_play").click(function () {
+        console.log("Doing")
+    })
 });
