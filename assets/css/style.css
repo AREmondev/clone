@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #ffffff;
+}
+ul,li {
+    list-style: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+     color: inherit;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+/* Header */
+
+.header-main {
+    padding: 20px 0
+}
+.header-main nav {
+    background-color: #fff !important;
+}
+.menu-item {
+    margin-right: 25px;
+}
+.menu-item.btn-menu {
+    margin: 0;
+}
+.menu-item.btn-menu a{
+    margin: 0;
+    color: #ffffff;
+    background-color: #d90000;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    padding: 8px 18px
+}
+.dropdown-item {
+    position: relative;
+}
+.menu-item a{
+    color: #0274be;
+    cursor: pointer;
+}
+.dropdown-menu.active {
+    display: block !important;
+}
+#dropdown:hover .dropdown-menu{
+    cursor: pointer;
+}
+.dropdown-menu {
+    margin-top: 16px;
+    /* display: block; */
+    padding: 20px 15px;
+}
+/* .menu-link.dropdown:hover .dropdown-menu {
+    display: block !important;
+} */
+.dropdown-menu li:not(:last-child) {
+    margin-bottom: 8px;
+}
+/* Main */
+.main-area {
+    min-height: 90vh;
+    padding: 45px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.603)), url(../image/Margo-Price.jpg);
+    background-position: center center;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+}
+.left-content-area {
+    height: 100%;
+    width: 100%;
+}
+.left-content-area h4 {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.left-content-area h1 {
+    font-size: 65px;
+    line-height: 85px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.left-content-area p {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 300;
+    color: #bfbfbf;
+    margin-bottom: 55px
+    ;
+}
+a.btn-main {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 0px rgb(68 1 92 / 77%);
+    fill: #000000;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: -10px -10px -10px -10px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.35s;
+    width: auto;
+    display: inline-block;
+}
+a.btn-main:hover {
+    /* padding: 22px 55px 22px 55px; */
+    background-color: #51047B;
+    color: #fff;
+    transform: scale(1.1);
+}
+footer {
+    border-top: 1px solid #ff5656;
+    padding: 35px 0;
+    background-color: #001c49;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 0;
+}
+@media (max-width: 991px){
+    .menu-item {
+        margin: 5px 0 !important;
+    }
+    .navbar-nav {
+        padding: 15px 20px !important;
+    }
+    .left-content-area h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .left-content-area h4 {
+        margin-bottom: 8px;
+        letter-spacing:2.8px;
+        font-size: 12px;
+    }
+    .left-content-area {
+        margin-bottom: 30px;
+    }
+    .left-content-area p {
+        margin-bottom: 20px;
+    }
+}
